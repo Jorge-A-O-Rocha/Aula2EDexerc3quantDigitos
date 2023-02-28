@@ -10,7 +10,7 @@ public class modulos {
         if(n < 10 && n > -10){
         	return 1 ;
         }else{
-        	// somasse de um em um enquanto n é dividido por 10 sucessivamente até atingir a condição de parada
+        	// soma-se de um em um enquanto n é dividido por 10 sucessivamente até atingir a condição de parada
             return 1 + digitos(n/10);
         }
     }
